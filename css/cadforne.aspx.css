@@ -1,0 +1,95 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+    .col.label {
+        flex-grow: 1;
+        max-width: 150px;
+        padding: 0 !important;
+    }
+
+.container-fluid {
+    max-width: 1080px;
+}
+
+
+.jumbotron {
+    margin: 20px auto;
+    padding: 0;
+}
+
+.progress {
+    margin-top: 0;
+}
+
+
+h3 {
+    color: #fff;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.btn-floating {
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+h5 {
+    font-weight: 200;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 0;
+    text-align: right;
+}
+
+#contatos {
+    width: 100%;
+}
+
+#contatos ul li input {
+    display: inline;
+}
+
+.nomecon {
+    width: 200px !important;
+}
+
+.fonecon {
+    width: 160px !important;
+    text-align:right;
+    padding-right:20px !important;
+}
+
+#rem_fone {
+    margin-left: 5px;
+}
+
+#dtnas {
+    width: 120px;
+    text-align: center;
+}
+
+.list-group-item {
+    padding: 0;
+    border-bottom: none;
+}
+
+.flex-column .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}

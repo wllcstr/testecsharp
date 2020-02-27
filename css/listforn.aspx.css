@@ -1,0 +1,82 @@
+﻿body {
+    padding:0;
+    margin: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h3 {
+    color:#fff;
+    font-weight:100;
+    text-transform: uppercase;
+    display:block;
+    padding:10px;
+    width: 100%;
+    margin-top:0;
+    
+}
+
+/* Isso aqui só pra deixar com cara de formulário de cadastro ¯\_(ツ)_/¯ */
+.container-fluid {
+    max-width: 1080px;
+}
+
+.dataTables_wrapper {
+    width: 100%;
+}
+
+.fcontainer {
+    margin-top: -82px;
+    padding: 15px;
+}
+
+.dataTables_length {
+    margin-top: 5px;
+    display: none;
+}
+
+
+p {
+    padding: 10px;
+}
+
+.jumbotron {
+    margin:20px auto;
+    padding:0;
+}
+
+.hd {
+    display: none;
+}
+
+
+.progress {
+    margin-top: 0;
+}
+
+
+
+.btn {
+    margin-top: 0;
+    height: 38px;
+    line-height: 15px;
+}
+
+#add_for {
+    margin-left: 15px;
+    margin-top: 8px;
+    z-index:4;
+}
+
+.dataTables_info, .dataTables_paginate {
+    font-size: .8em;
+}
+
+@media (max-width: 600px) {
+    .fcontainer {
+        margin-top: -32px;
+    }
+}
